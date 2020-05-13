@@ -1,0 +1,5 @@
+insert into alien values(101,'anuj','java');
+insert into alien values(102,'navin','javase');
+insert into alien values(103,'praty','javascript');
+insert into alien values(104,'priyanka','c');
+insert into alien values(105,'rahul','python');

@@ -1,0 +1,5 @@
+package io.anuj.dao;
+
+public interface AlienRepo {
+
+}

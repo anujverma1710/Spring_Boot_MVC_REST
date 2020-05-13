@@ -1,0 +1,7 @@
+package io.anuj;
+
+import javax.servlet.http.HttpServlet;
+
+public class VisitCounter extends HttpServlet{
+
+}

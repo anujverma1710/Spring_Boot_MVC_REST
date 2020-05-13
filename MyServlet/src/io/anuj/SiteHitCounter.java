@@ -1,0 +1,37 @@
+package io.anuj;
+
+import java.io.IOException;
+
+import javax.servlet.Filter;
+import javax.servlet.FilterChain;
+import javax.servlet.FilterConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.annotation.WebFilter;
+
+@WebFilter("/*")
+public class SiteHitCounter implements Filter{
+	
+	private static int hitCount; 
+
+   public void  init(FilterConfig config) throws ServletException {
+      // Reset hit counter.
+      hitCount = 0;
+   }
+
+	@Override
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
+			throws IOException, ServletException {
+		
+		// increase counter by one
+	      hitCount++;
+
+	      // Print the counter.
+	      System.out.println("Site visits count :"+ hitCount );
+
+	      // Pass request back down the filter chain
+	      chain.doFilter(request,response);
+	}
+
+}

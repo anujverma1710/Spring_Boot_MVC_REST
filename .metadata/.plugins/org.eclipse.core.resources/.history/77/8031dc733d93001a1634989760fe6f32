@@ -1,0 +1,8 @@
+package io.anuj;
+
+public class HomeController {
+	
+	public void home() {
+		
+	}
+}

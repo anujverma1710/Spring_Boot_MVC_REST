@@ -1,0 +1,9 @@
+package io.anuj;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import io.anuj.model.Alien;
+
+public interface AlienRepo extends JpaRepository<Alien, Integer>{
+
+}

@@ -1,0 +1,10 @@
+package io.anuj;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan{"io.anuj"}
+public class TeluskoConfig {
+
+}

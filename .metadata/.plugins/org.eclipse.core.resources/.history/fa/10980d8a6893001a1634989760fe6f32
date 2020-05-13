@@ -1,0 +1,11 @@
+package io.anuj.dao;
+
+import java.util.List;
+
+import org.springframework.data.repository.CrudRepository;
+
+import io.anuj.model.Alien;
+
+public interface AlienRepo extends CrudRepository<Alien, Integer>{
+	List<Alien> findByTech(String tech);
+}

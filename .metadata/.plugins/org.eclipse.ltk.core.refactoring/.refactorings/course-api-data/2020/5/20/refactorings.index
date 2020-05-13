@@ -1,0 +1,9 @@
+1589141865357	Delete element
+1589144988528	Copy package
+1589145041620	Rename type 'Topic'
+1589145100077	Rename type 'Course'
+1589145129289	Rename type 'Topic'
+1589145163614	Rename type 'TopicController'
+1589145181860	Rename type 'TopicRepository'
+1589145197091	Rename type 'TopicService'
+1589146300685	Encapsulate field 'topic'

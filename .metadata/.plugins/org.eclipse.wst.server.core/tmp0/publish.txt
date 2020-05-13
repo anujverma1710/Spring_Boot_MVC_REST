@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue May 12 22:09:11 PDT 2020
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\verma\\.m2\\repository\\org\\springframework\\spring-web\\4.3.12.RELEASE\\spring-web-4.3.12.RELEASE.jar=WEB-INF/lib/spring-web-4.3.12.RELEASE.jar
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\verma\\.m2\\repository\\org\\springframework\\spring-web\\4.1.8.RELEASE\\spring-web-4.1.8.RELEASE.jar=WEB-INF/lib/spring-web-4.1.8.RELEASE.jar
