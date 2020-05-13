@@ -7,7 +7,11 @@ For logged-in-users - https://www.baeldung.com/spring-security-track-logged-in-u
 
 Session Listener - https://kodejava.org/how-do-i-count-number-of-online-users/
 
-using Filter and Session - https://www.codejava.net/coding/how-to-code-hit-counter-for-java-web-application
+using Filter and Session - 
+
+https://www.codejava.net/coding/how-to-code-hit-counter-for-java-web-application
+
+https://www.baeldung.com/spring-rest-api-metrics
 
 For a page: 
 
@@ -15,4 +19,5 @@ For a page:
 2) https://www.tutorialspoint.com/servlets/servlets-hits-counter.htm
 
 using jsp - https://www.tutorialride.com/jsp-programs/count-number-of-visitors-on-website-jsp.htm
+
 using interceptors - https://stackoverflow.com/questions/47152766/no-if-hit-count-in-spring-mvc
